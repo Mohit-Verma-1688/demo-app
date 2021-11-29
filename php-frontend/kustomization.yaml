@@ -9,3 +9,4 @@ resources:
   - configmap.yaml
   - namespace.yaml
   - secret.yaml
+  - secret-reg.yaml
