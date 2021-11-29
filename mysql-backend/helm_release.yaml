@@ -17,4 +17,4 @@ spec:
   targetNamespace: demo-webapp
   valuesFrom:
     - kind: ConfigMap
-      name: mysql-values
+      name: mysqlvalues.yaml
