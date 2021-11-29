@@ -4,7 +4,7 @@ namespace: flux-system
 resources:
   - helm_release.yaml
 configMapGenerator:
-  - name: stage-values
+  - name: mysqlvalues
     files:
       - values.yaml=mysqlvalues.yaml
 configurations:
